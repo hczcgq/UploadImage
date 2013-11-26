@@ -50,7 +50,7 @@ public class GlobalUtil {
 	
 	public static void showDialog(Context context,String title){
 		if((dialog==null)||!(dialog.isShowing())){
-			dialog=ProgressDialog.show(context, title, "���Ժ�...",true,true);
+			dialog=ProgressDialog.show(context, title, "请稍后...",true,true);
 		}
 	}
 	
